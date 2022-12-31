@@ -1,0 +1,1 @@
+This will be a website that uses statistics to compare two seasons between baseball players.
