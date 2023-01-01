@@ -1,8 +1,35 @@
 * {
-    background-color: whitesmoke;
+    background-color:darkgray
 }
 
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.column {
+    width: 48%;
+  }
+  
+.column-divider {
+    width: 4%;
+  }
+  
+.left {
+    margin-right: 4%;
+  }
+  
+.right {
+    margin-left: 4%;
+  }  
