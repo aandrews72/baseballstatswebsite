@@ -2,12 +2,10 @@
     background-color:darkgray
 }
 
-
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
     text-align: center;
 }
-
 
 hr {
   height:2px; 
@@ -16,12 +14,11 @@ hr {
   background-color:antiquewhite
 }
 
-
 .container {
     width: 80%;
     margin: 0 auto;
   }
-  
+
 .side-by-side {
     display: flex;
     justify-content: space-between;
@@ -38,5 +35,31 @@ hr {
 
 input {
   background-color: white;
-  color: black
+  color: black;
+}
+
+.column-left {
+
+}
+
+.column-left label {
+  display: block;
+}
+
+.column-left input[type="text"] {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column-right {
+
+}
+
+.column-right label {
+  display: block;
+}
+
+.column-right input[type="text"] {
+  display: inline-block;
+  vertical-align: top;
 }
