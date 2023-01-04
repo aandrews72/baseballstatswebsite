@@ -7,29 +7,25 @@
     <title>Baseball Statistics Comparisson Website</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .vertical-line {
-        border-left: 2px solid antiquewhite;
-        height: 700px;
-        position: absolute;
-        left: 50%;
-        margin-left: -3px;
-        top: 10.5%;
-      }
-    </style>
 </head>
 
 <body>
   <h1>Baseball Statistics Comparisson Tool</h1>
-  <hr style="height:2px; border-width:0; color:antiquewhite; background-color:antiquewhite"> <!-- make the line attach to the left side of the screen -->
+  <hr>
   <div class="container">
       <div class="side-by-side">
-        <div class="column left">
+        <div class="column-left">
           <!-- content for the left column goes here -->
+          <label for="name-left">Name:</label><br>
+          <input type="text" id="name-left" name="name-left"><br>
+          <input type="submit" value="Submit">
         </div>
         <div class="vertical-line"></div>
-        <div class="column right">
+        <div class="column-right">
           <!-- content for the right column goes here -->
+          <label for="name-right">Name:</label><br>
+          <input type="text" id="name-right" name="name-right"><br>
+          <input type="submit" value="Submit">
         </div>
       </div>
     </div>
