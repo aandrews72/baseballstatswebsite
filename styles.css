@@ -36,30 +36,13 @@ hr {
 input {
   background-color: white;
   color: black;
+  margin-left: 5px;
 }
 
-.column-left {
-
-}
-
-.column-left label {
-  display: block;
-}
-
-.column-left input[type="text"] {
-  display: inline-block;
-  vertical-align: top;
-}
-
+.column-left,
 .column-right {
-
+  display: flex;
+  align-items: center;
+  margin-top: 30%;
 }
 
-.column-right label {
-  display: block;
-}
-
-.column-right input[type="text"] {
-  display: inline-block;
-  vertical-align: top;
-}
