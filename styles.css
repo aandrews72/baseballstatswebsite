@@ -36,7 +36,10 @@ hr {
 input {
   background-color: white;
   color: black;
-  margin-left: 5px;
+}
+
+input[type="text"] {
+  margin-left: 10px;
 }
 
 .column-left,
